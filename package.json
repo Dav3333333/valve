@@ -1,7 +1,7 @@
 {
   "name": "semesterexams",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel src/index.html",
@@ -19,5 +19,12 @@
   "dependencies": {
     "firebase": "^11.4.0",
     "semesterexams": "file:"
+  }
+  "targets": {
+    "main": {
+      "distDir": "dist",
+      "publicUrl": "./",
+      "source": "src/index.html"
+    }
   }
 }
