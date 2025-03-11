@@ -1,0 +1,18 @@
+.shownews{
+    padding: 1rem;
+}
+
+.header--shownews{
+    background-color: var(--color-black--light);
+    border-bottom: var(--color-black--dark);
+    color: white;
+}
+
+.shownews .content{
+    padding: 1rem;background-color: var(--color-white--pure);
+}
+
+.back-to-news{
+    cursor: pointer;
+}
+
